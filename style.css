@@ -1,0 +1,30 @@
+ 
+ body{
+    background-image: url(exer23/imaguem/wallpaper002.jpg);
+ }
+ 
+ 
+ div.quadrado{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    border: 2px groove gold;
+    display: inline-block;
+    
+ }
+ div#q1{
+    background-image: url(exer23/imaguem/pattern001.png);
+ }
+ div#q2{
+    background-image: url(exer23/imaguem/pattern002.png);
+ }
+ div#q3{
+    background-image: url(exer23/imaguem/pattern003.png);
+ }
+ div#q4{
+    background-image: url(exer23/imaguem/pattern004.png);
+ }
+ div#q5{
+    border-radius: 20px;
+    background-image: url(exer23/imaguem/pattern001.png);
+ }
