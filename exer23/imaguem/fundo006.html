@@ -6,21 +6,33 @@
     <title>Document</title>
 </head>
 <style>
-    #conteiner{
+    #fundo{
         background-color: black;
+        background-size: 100% 100%;
+        position: relative;
+        height: 96vh;
+        padding: 10px;
 
     }
-    #condeudo{
+    #meio{
+        background-color: blueviolet;
+        background-size: 100% 100%;
+        width: 400px;
+        height: 200px;
+        position: absolute;
+        left: 50%;
+        top:50%;
+        transform: translate(-50% , -50%);
 
-        background-color: bisque;
+
     }
 </style>
 <body>
-    <section id="conteiner">
-        <article id="conteudo">
+   <section id="fundo">
+    <article id="meio">
 
-        </article>
-    </section>
+    </article>
+   </section>
     
 </body>
 </html>
