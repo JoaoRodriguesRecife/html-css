@@ -1,0 +1,33 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+table{
+    border-collapse: collapse;
+    width: 400px;
+    height: 400px;
+}
+
+
+th,td{
+    border: 1px solid black;
+    padding: 10px;
+    
+}
+th{
+    background-color: gray;
+    color: white;
+}
+.num{
+   
+    text-align: right;
+}
+tfoot td {
+    background-color: gray;
+    color: white;
+}
+tbody > tr:nth-child(2n){
+    background-color: lightgrey;
+}
