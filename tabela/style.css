@@ -1,0 +1,22 @@
+
+
+table{
+    border-collapse: collapse;
+    width: 400px;
+    
+
+}
+td{
+    border: 1px solid black;
+    padding: 6px;
+    text-align: center;
+}
+.linha{
+    background-color: aquamarine;
+}
+.vermelho{
+    background-color: red;
+}
+.amarelo{
+    background-color: rgb(255, 255, 37);
+}
