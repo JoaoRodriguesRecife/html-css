@@ -5,11 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>formulario</title>
 </head>
+<style>
+    form{
+        background-color: lightgrey;
+        width: 300px;
+        padding: 25px;
+        border-radius: 20px;
+        
+    }
+   .enviar{
+    text-align: center;
+    }
+    .enviar2{
+        border-radius: 5px;
+        font-weight: bold;
+    }
+   
+</style>
 <body>
     <h1>formulario basico</h1>
     <form>
         <p>incio:<input type="text" name="nome" id="nome"></p>
         <p>sobrenome:<input type="text" name="sobrenome" id="sobrenome"></p>
+        <p class="enviar"><input type="submit" value="enviar" class="enviar2"></p>
     </form>
     
 </body>
