@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" required minlength="5" maxlength="30" value="seu nome" >
+        </p>
+        <p>
+            <label for="imedia">Média:</label>
+            <input type="number" name="media" id="imedia" required step="0.1" min="0" max="10" value="0"  >
+        </p>
+        <p>
+            <label for="iperiodo">Periodo:</label>
+            <input type="month" name="periodo" id="iperiodo" required value="2025-01">
+        </p>
+        <p>
+            <label for="idate">Data:</label>
+            <input type="date" name="data" id="idata" required value="2025-01-10">
+        </p>
+        <p>
+            <label for="ihora">Hora:</label>
+            <input type="time" name="hora" id="ihora" required value="12:00">
+        </p>
+        <p>
+           <input type="submit" value="Enviar">
+           <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
