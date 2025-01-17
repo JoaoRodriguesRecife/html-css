@@ -3,12 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/style.css" media="all">
-    <link rel="stylesheet" href="estilos/retrato.css" media="screen and (orientation :portrait)" >
-    <link rel="stylesheet" href="estilos/paisagem.css" media="screen and (orientation :landscape)" >
+    <style>
+        *{
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    body{
+        background-color: darkblue;
+        width: 100vw;
+        height: 100vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    h1{
+        color: aliceblue;
+        padding: 20px;
+    }
+    @media screen and (orientation: portrait) {
+        body{
+            background-image: url(../imagem/cev-portrait.jpg);
+        }
+        
+    }
+    @media screen and (orientation: landscape) {
+        body {
+      background-image: url(../imagem/cev-landscape.jpg);
+      background-position: left bottom;
+    }
+    }
+    </style>
+   
 
     <title>Document</title>
 </head>
+
 <body>
     <h1>teste</h1>
     
