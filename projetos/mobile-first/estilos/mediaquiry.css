@@ -3,6 +3,20 @@
 
 @media print{
 
+    main{
+        border: 2px solid black
+    }
+    main::after{
+        content: 'feito em exercio de media quiry';
+        text-decoration: underline;
+        
+    }
+
+    img#celular{display: none;}
+    img#tablet{display: none;}
+    img#impressora{display: block;}
+    img#computador{display: none;}
+    img#TV{display: none;}
 }
 
 @media screen and (min-width: 768px) and (max-width:992px){
