@@ -5,14 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    body{
 
+    }
+    div.conteiner{
+        background-color: chocolate;
+        display: flex;
+        height: 500px;
+        flex-flow: row wrap;
+        align-items: flex-start;
+    
+    }
+    div.filho{
+        background-color: cadetblue;
+        border: 1px solid black;
+        padding: 20px;
+    }
+    div#i1{
+        align-self: stretch;
+    }
+    div#i2{
+        align-self: center;
+    }
+    div#i4{
+        align-self: flex-end;
+    }
+    div#i5{
+        align-self: stretch;
+    }
+</style>
 <body>
     <div class="conteiner">
-        <div class="filho">a</div>
-        <div class="filho">b</div>
-        <div class="filho">c</div>
-        <div class="filho">d</div>
-        <div class="filho">e</div>
+        <div class="filho" id="i1">a</div>
+        <div class="filho" id="i2">b</div>
+        <div class="filho" id="i3">c</div>
+        <div class="filho" id="i4">d</div>
+        <div class="filho" id="i5">e</div>
+        <div class="filho" id="i6">f</div>
+        <div class="filho" id="i7">g</div>
 
     </div>
 </body>
